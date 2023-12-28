@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.cdnfonts.com/css/circular-std');
+}
+
+#container {
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(https://assets.nflxext.com/ffe/siteui/vlv3/530fc327-2ddb-4038-a3f0-2da2d9ccede1/81c68250-e0f1-4cd8-bf2d-4fd8222163de/BR-pt-20230619-popsignuptwoweeks-perspective_alpha_website_large.jpg), url(./imgnetflix/imgfundo.png);
+    width: 100%;
+    height: 1901px;
+    background-size: cover;
+    padding: 70px 70px 0 70px;
+
+
+
+}
+
+
+#logo {
+    width: 300px;
+
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+    padding: 7px 17px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    cursor: pointer;
+    background-image: url();
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+button {
+    background-color: red;
+    padding: 7px 19px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#main {
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#title-main {
+    font-size: 75px;
+}
+
+
+.subtitle-main {
+    font-size: 50px;
+}
+
+
+h3 {
+    font-size: 35px;
+    margin-top: 13px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+
+#input {
+    height: 50px;
+    width: 350px;
+    background-color: rgb(14, 13, 13);
+    color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
+#button-start {
+
+    margin-left: 10px;
+    font-size: 22px;
+    padding: 2px 20px 5px 20px;
+    font-weight: 800;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#box-container {
+    width: 100%;
+    height: 1165px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: auto;
+    background: linear-gradient(333.52deg, #000235 24.58%, #010F42 84.55%, #E40913 104.96%);
+    ;
+    border-radius: 5px;
+
+}
+
+.box-info {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    padding: 40px;
+    font-weight: 800px;
+    justify-content: center;
+}
+
+.box-title {
+    font-size: 80px;
+}
+
+.subtitle-main-two {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+#shadow {
+    width: 85%;
+    height: 7px;
+    background-color: black;
+    margin: 0 auto;
+}
